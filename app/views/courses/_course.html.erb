@@ -1,0 +1,15 @@
+<p>
+  <strong>Order:</strong>
+  <%= course.order %>
+</p>
+ 
+<p>
+  <strong>Comment:</strong>
+  <%= course.comment %>
+</p>
+
+<p>
+  <%= link_to 'Destroy Course', [course.trip, course],
+               method: :delete,
+               data: { confirm: 'Are you sure?' } %>
+</p>

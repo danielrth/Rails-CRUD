@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  order: 
+  comment: MyText
+  trip: one
+
+two:
+  order: 
+  comment: MyText
+  trip: two

@@ -1,0 +1,14 @@
+
+<%= form_for([@trip, @trip.courses.build]) do |f| %>
+  <p>
+    <%= f.label :order %><br>
+    <%= f.text_field :order %>
+  </p>
+  <p>
+    <%= f.label :comment %><br>
+    <%= f.text_area :comment %>
+  </p>
+  <p>
+    <%= f.submit %>
+  </p>
+<% end %>
